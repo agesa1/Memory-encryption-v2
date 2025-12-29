@@ -26,14 +26,16 @@ val.set(200);
 - `ProtectedValue<T>` - encrypted value storage
 - `StackGuard` - return address protection
 - `TLSProtector` - thread-local encryption
+
 - 
-Features
+## Features
+
 
 - Runtime XOR encryption
 - Dynamic key rotation
 - Stack frame protection
 - TLS encryption support
 
-Notes
+## Notes
 
 For optimal performance compile with optimization flags.
